@@ -58,3 +58,23 @@ h1{
     font-size:12px;
     font-weight: bold;
 }
+@media (hover: hover){
+    .desc{
+        overflow-y: scroll; /* Activer le défilement vertical */
+        max-height: 100px; /* Limiter la hauteur pour activer le défilement */
+        color: black;
+    }
+}
+@media (hover: hover) {
+    .sidebar{
+    display:grid;
+    }
+}
+.footer{
+    display:grid;
+    grid-template-columns: 1/-1;
+    padding:20px;
+    text-align: center;
+    color:aliceblue;
+    background-color: #f81d1d69;
+}
